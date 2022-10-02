@@ -30,7 +30,7 @@ Ex4.
 
 Выполнение программы:
 
-![пример 2](https://github.com/EkaterinaGugina/Practicum_Python_30_09_22/blob/main/HomeWork/Ex2_mult_simm_elem.png)
+![пример 2](https://github.com/EkaterinaGugina/Practicum_Python_04_10_22/blob/main/HomeWork/Ex2_div_simpl_N.png)
 
 ### Ex3_differ_spisok. Задайте последовательность чисел. Напишите программу, которая выведет список неповторяющихся элементов исходной последовательности.
 
