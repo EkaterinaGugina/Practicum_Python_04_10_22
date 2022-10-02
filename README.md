@@ -24,7 +24,7 @@ Ex4.
 
 Выполнение программы:
 
-![пример 1](https://github.com/EkaterinaGugina/Practicum_Python_04_10_22/blob/main/HomeWork/Ex1_sum_num_not_mod_2.png)
+![пример 1](https://github.com/EkaterinaGugina/Practicum_Python_04_10_22/blob/main/HomeWork/Ex1_calculate_e.png)
 
 ### Ex2_div_simpl_N. Задайте натуральное число N. Напишите программу, которая составит список простых множителей числа N.
 
