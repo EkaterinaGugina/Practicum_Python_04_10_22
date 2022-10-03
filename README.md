@@ -36,7 +36,7 @@ Ex4.
 
 Выполнение программы:
 
-![пример 3](https://github.com/EkaterinaGugina/Practicum_Python_30_09_22/blob/main/HomeWork/Ex3_dif_max_min.png)
+![пример 3](https://github.com/EkaterinaGugina/Practicum_Python_04_10_22/blob/main/HomeWork/Ex3_differ_spisok.png)
 
 ### Ex4_сoeff_polynom. Задана натуральная степень k. Сформировать случайным образом список коэффициентов (значения от 0 до 100) многочлена и записать в файл многочлен степени k.
 
