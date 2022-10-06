@@ -10,21 +10,21 @@ def creat_polynom():
     if polynom_coeff[0] == 0:
         polynom_coeff[0] = random.randint(1, 100)
     if k != 1:
-        polynom_string = str(polynom_coeff[0])+'*x^' + str(k) + ' '
+        polynom_string = str(polynom_coeff[0])+'x^' + str(k) + ' '
         count = k - 1
         while count > 1:
             if polynom_coeff[k - count] != 0:
                 polynom_string += '+ ' + \
                     str(polynom_coeff[k - count]) + \
-                    '*x^' + str(count) + ' '
+                    'x^' + str(count) + ' '
                 count -= 1
         if count == 1:
             polynom_string += '+ ' + \
-                str(polynom_coeff[k - count]) + '*x  + ' + \
+                str(polynom_coeff[k - count]) + 'x  + ' + \
                 str(polynom_coeff[k - count + 1]) + ' = 0'
     elif k == 1:
         polynom_string = str(polynom_coeff[0]) + \
-            '*x + ' + str(polynom_coeff[1]) + ' = 0'
+            'x + ' + str(polynom_coeff[1]) + ' = 0'
     print(polynom_string)
     return polynom_string
 
@@ -47,11 +47,3 @@ f.close()
 # write_poly_file(file_1.txt)
 # write_poly_file('file_2')
     
-
-# f1 = creat_polynom()
-# print(f1)
-# f2 = creat_polynom()
-# print(f2)
-# with open('file1.txt', 'w', encoding='utf-8') as f1:
-#     f1.write(polynom1)
-# f1.close()
