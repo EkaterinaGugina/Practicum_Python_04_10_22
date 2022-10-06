@@ -50,4 +50,4 @@ Ex3. Найти наименьшее общее кратное двух чисе
 
 Выполнение программы:
 
-![пример 5](https://github.com/EkaterinaGugina/Practicum_Python_30_09_22/blob/main/HomeWork/Ex5_spisok_fib.png)
+![пример 5]()
