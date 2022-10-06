@@ -10,5 +10,4 @@ while num > 1:
       array_div.append(div_simpl)
       num //= div_simpl
    div_simpl +=1
-# print('*'.join(array_div))
 print(f'Это все простые делители числа {n}: {array_div}')
