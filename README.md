@@ -44,7 +44,7 @@ Ex3. Найти наименьшее общее кратное двух чисе
 
 Выполнение программы:
 
-![пример 4](https://github.com/EkaterinaGugina/Practicum_Python_30_09_22/blob/main/HomeWork/Ex4_system_mod_2.png)
+![пример 4](https://github.com/EkaterinaGugina/Practicum_Python_04_10_22/blob/main/HomeWork/Ex4_%D1%81oeff_polynom.png)
 
 ### Ex5_sum_polynom Даны два файла, в каждом из которых находится запись многочлена. Задача - сформировать файл, содержащий сумму многочленов.
 
