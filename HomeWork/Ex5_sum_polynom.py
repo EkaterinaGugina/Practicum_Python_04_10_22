@@ -1,17 +1,32 @@
-# Ex5_spisok_fib. Задайте число. Составьте список чисел Фибоначчи, в том числе для отрицательных индексов.
-# Пример: для k = 8 список будет выглядеть так: [-21 ,13, -8, 5, −3, 2, −1, 1, 0, 1, 1, 2, 3, 5, 8, 13, 21]
-def fib(k):
-    if k > 1:
-        return fib(k - 1) + fib(k - 2)
-    else:
-        if k == 1:
-            return 1
-        if k == 0:
-            return 0
-n = int(input('Введите натуральное число n = '))
-array_fib = [0] *(2*n + 1)
-for i in range(2*n + 1):
-    if i < n:
-        array_fib[i] = ((-1)**(i+1)) * fib(n - i)
-    elif i > n: array_fib[i] = fib(i - n)
-print(array_fib)
+# Ex5_  Даны два файла, в каждом из которых находится запись многочлена. 
+# Задача - сформировать файл, содержащий сумму многочленов.
+# Например, 2*x² + 4*x + 5 = 0 и 2*x^4 + 4*x^3 + 5x^2 = 0  --> 2*x^4 + 4*x^3 + 7x^2 + 4*x + 5 = 0
+import random
+
+import Ex4_second_decid as p
+
+from unicodedata import name
+
+with open('file_1.txt', 'w', encoding='utf-8') as f:
+    f.write(f1)
+f.close()
+with open('file_2.txt', 'w', encoding='utf-8') as f:
+    f.write(f2)
+f.close()
+
+
+
+k = int(input('Введите степень многочлена (натуральное число, большее нуля), k = ' ))
+f1 = creat_polynom(k)
+n = int(input('Введите степень второго многочлена, n = ' ))
+f2 = creat_polynom()
+
+
+
+# def write_poly_file(name_file):
+#     with open('name_file.txt', 'w', encoding='utf-8') as f:
+#         return f.write(creat_polynom())
+#     
+# write_poly_file(file_1.txt)
+# write_poly_file('file_2')
+    
