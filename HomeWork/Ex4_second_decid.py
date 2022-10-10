@@ -1,13 +1,13 @@
 # Ex4_coeff_polynom. Задана натуральная степень k. Сформировать случайным образом список коэффициентов # (значения от 0 до 100) многочлена и записать в файл многочлен степени k.
 import random
-import Ex4_second_decid as p
-def creat_polynom(deg):
+
+def creat_polynom(deg, coeff):
     # deg = int(input('Введите степень многочлена (натуральное число), k = ' ))
-    coeff = [random.randint(0, 101) for i in range(deg + 1)]
+    # coeff = [random.randint(0, 100) for i in range(deg + 1)]
     print(f'Коэффициенты полинома: {coeff}, если первый коэф. = "0", \n \
         он будет заменен другим случ. числом')
     if coeff[0] == 0:
-        coeff[0] = random.randint(1, 101)
+        coeff[0] = random.randint(1, 100)
     if deg > 1:
         if coeff[0] > 1:
             polynom_string = str(coeff[0])+'x^' + str(deg) + ' '
@@ -52,11 +52,11 @@ def creat_polynom(deg):
         return
     return polynom_string
 
-k, n = map(int, input('Введите степени многочленов k и n через пробел: ' ).split())
-with open('file_1.txt', 'w', encoding='utf-8') as f1:
-    f1.write(p.creat_polynom(k))
-with open('file_2.txt', 'w', encoding='utf-8') as f2:
-    f2.write(p.creat_polynom(n))
+# k, n = map(int, input('Введите степени многочленов k и n через пробел: ' ).split())
+# with open('file_1.txt', 'w', encoding='utf-8') as f1:
+#     f1.write(p.creat_polynom(k))
+# with open('file_2.txt', 'w', encoding='utf-8') as f2:
+#     f2.write(p.creat_polynom(n))
 
 
 

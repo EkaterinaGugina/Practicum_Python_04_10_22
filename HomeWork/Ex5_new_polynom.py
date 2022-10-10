@@ -3,7 +3,7 @@
 # Например, 2*x² + 4*x + 5 = 0 и 2*x^4 + 4*x^3 + 5x^2 = 0  --> 2*x^4 + 4*x^3 + 7x^2 + 4*x + 5 = 0
 import random
 import math
-import Ex4_second_decid as p
+
 import Ex5_function as f5
 
 with open('file_1.txt', 'r') as f1:
@@ -13,7 +13,7 @@ with open('file_2.txt', 'r') as f2:
 str1, str2 = str1.replace('= 0', ''), str2.replace('= 0', '')
 str1, str2 = str1.rstrip(), str2.rstrip()
 str1, str2 = str1.lstrip(), str2.lstrip()
-print(str1, /n str2)
+print(str1)
 
 coef_p1 = f5.lst_coef(str1)
 print(coef_p1)
