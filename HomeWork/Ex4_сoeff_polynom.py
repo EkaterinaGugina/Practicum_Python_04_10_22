@@ -2,12 +2,12 @@
 # (значения от 0 до 100) многочлена и записать в файл многочлен степени k.
 import random
 
-def creat_polynom():
+def creat_polynom(k):
     k = int(input('Введите степень многочлена (натуральное число, большее нуля), k = '))
     polynom_coeff = [random.randint(0, 101) for i in range(k + 1)]
     print(polynom_coeff)
     if polynom_coeff[0] == 0:
-        polynom_coeff[0] = random.randint(1, 10)
+        polynom_coeff[0] = random.randint(1, 5*deg)
     if k != 1:
         polynom_string = str(polynom_coeff[0])+'x^' + str(k) + ' '
         count = k - 1
@@ -16,7 +16,7 @@ def creat_polynom():
                 polynom_string += '+ ' + \
                     str(polynom_coeff[k - count]) + \
                     'x^' + str(count) + ' '
-                count -= 1
+            count -= 1
         if count == 1:
             polynom_string += '+ ' + \
                 str(polynom_coeff[k - count]) + 'x  + ' + \
@@ -27,7 +27,8 @@ def creat_polynom():
     print(polynom_string)
     return polynom_string
 
-p1 = creat_polynom()
+
+# p1 = creat_polynom()
 
 
 
