@@ -50,4 +50,5 @@ Ex3. Найти наименьшее общее кратное двух чисе
 
 Выполнение программы:
 
-![пример 5]()
+![пример 5](https://github.com/EkaterinaGugina/Practicum_Python_04_10_22/blob/main/HomeWork/Ex5_sum_polynom1.png)
+![продолжение листинга примера 5](https://github.com/EkaterinaGugina/Practicum_Python_04_10_22/blob/main/HomeWork/Ex5_sum_polynom2.png)
