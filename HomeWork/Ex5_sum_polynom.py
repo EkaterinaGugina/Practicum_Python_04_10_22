@@ -59,17 +59,6 @@ with open('file_sum_12.txt', 'w') as f12:
 #     f2.write(p.creat_polynom(n))
 
 
-# coef_str.extend(data[len(data)-1])
-# data[space_pos+2] == '+':
-   
- 
-# def write_poly_file(name_file, deg):
-#     with open('name_file.txt', 'w', encoding='utf-8') as f:
-#         return f.write(p.creat_polynom(deg))
-#     
-# write_poly_file(file_1.txt, k)
-# write_poly_file(file_2.txt, n)
-
 
 # def lst_coef(data):
 #     coef_str = []
@@ -89,19 +78,3 @@ with open('file_sum_12.txt', 'w') as f12:
 #     coef_str = list(map(int, coef_str))
 #     return coef_str
  
- 
- 
- # print(str1)
-# str1 = str1.split(' + ')
-# # str2 = str2.split(' + ')
-# print(str1)
-# coef_p1 = []
-# deg_p1 = []
-# for i in range(len(str1)):
-#     for j in str1[i]:
-#         coef_p1[i] = ''
-#         if j.isdigit():
-#             coef_p1[i] += 'j'
-#     coef_p1[i] = int(coef_p1[i])
-# print(coef_p1)
-   
